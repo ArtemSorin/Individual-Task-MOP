@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b03fe6a8-453a-424f-852f-2bd363569055}</ProjectGuid>
+    <RootNamespace>ConsoleApplication83</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\sveto\source\repos\ConsoleApplication83\StaticLib1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\sveto\source\repos\ConsoleApplication83\StaticLib1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplication83.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\artem\source\repos\IZ_MOP-master\StaticLib1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StaticLib1\StaticLib1.vcxproj">
+      <Project>{e1392530-ec83-46c2-a303-3c7adadf504e}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\annotated.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\classes.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\doxygen.css" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\doxygen.svg" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\dynsections.js" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\files.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h_source.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h__dep__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h__dep__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\functions.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\functions_func.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\functions_vars.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\globals.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\globals_defs.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\graph_legend.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\graph_legend.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\index.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\jquery.js" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\menu.js" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\menudata.js" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespacemembers.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespacemembers_func.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader_a068be0f137d5f6a8a69cb8b811a2846b_cgraph.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader_a068be0f137d5f6a8a69cb8b811a2846b_cgraph.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h_source.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__dep__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__dep__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h_source.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__dep__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__dep__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_flat.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_query.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_record___g_h_m_d.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_record___i_m_d.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_record___report.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report__coll__graph.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report__coll__graph.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result__coll__graph.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result__coll__graph.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_taxes.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h_source.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h__dep__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h__dep__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\tabs.css" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_readme_8h.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_readme_8h_source.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp.html" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp__incl.map" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp__incl.md5" />
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\Задание2021 (v3) - 06.01.2022.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\bc_s.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\bdwn.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\closed.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\doc.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\folderclosed.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\folderopen.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h__dep__incl.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\graph_legend.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader_a068be0f137d5f6a8a69cb8b811a2846b_cgraph.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\nav_f.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\nav_g.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\nav_h.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\open.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp__incl.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__dep__incl.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__incl.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__dep__incl.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__incl.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\splitbar.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report__coll__graph.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result__coll__graph.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h__dep__incl.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\sync_off.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\sync_on.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_a.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_b.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_h.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_s.png" />
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp__incl.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Readme">
+      <UniqueIdentifier>{a9bd7cb2-b7ac-4d9e-a64e-5832a62ffd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Readme\html">
+      <UniqueIdentifier>{804562a3-9215-4305-9f23-f49a99f08e81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplication83.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\Задание2021 (v3) - 06.01.2022.pdf">
+      <Filter>Readme</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_readme_8h.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_readme_8h_source.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\annotated.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\classes.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\doxygen.css">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\doxygen.svg">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\dynsections.js">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\files.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h__dep__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h__dep__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h_source.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\functions.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\functions_func.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\functions_vars.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\globals.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\globals_defs.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\graph_legend.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\graph_legend.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\index.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\jquery.js">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\menu.js">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\menudata.js">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespacemembers.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespacemembers_func.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader_a068be0f137d5f6a8a69cb8b811a2846b_cgraph.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader_a068be0f137d5f6a8a69cb8b811a2846b_cgraph.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__dep__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__dep__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h_source.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__dep__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__dep__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h_source.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_flat.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_query.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_record___g_h_m_d.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_record___i_m_d.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_record___report.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report__coll__graph.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report__coll__graph.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result__coll__graph.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result__coll__graph.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_taxes.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h__dep__incl.map">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h__dep__incl.md5">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h_source.html">
+      <Filter>Readme\html</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Рабочий стол\html\tabs.css">
+      <Filter>Readme\html</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\_static_lib1_8cpp__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\bc_s.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\bdwn.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\closed.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\doc.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\folderclosed.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\folderopen.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\framework_8h__dep__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\graph_legend.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\namespaces_reader_a068be0f137d5f6a8a69cb8b811a2846b_cgraph.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\nav_f.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\nav_g.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\nav_h.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\open.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8cpp__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__dep__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\pch_8h__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__dep__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\readfiles_8h__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\splitbar.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_report__coll__graph.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\structs_reader_1_1_result__coll__graph.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\structures_8h__dep__incl.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\sync_off.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\sync_on.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_a.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_b.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_h.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\html\tab_s.png">
+      <Filter>Readme\html</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
